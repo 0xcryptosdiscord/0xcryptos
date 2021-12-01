@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
+    
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Primary Meta Tags -->
+		<title>Ice Checker.</title>
+
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Elegant Font Icons CSS -->
+        <link rel="stylesheet" href="css/elegant-font-icons.css">
+        <!-- Elegant Line Icons CSS -->
+        <link rel="stylesheet" href="css/elegant-line-icons.css">
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+    </head>
+    <body>
+        
+        <div id="st-container" class="st-container">
+            <div class="st-pusher">
+                <div class="st-menu st-effect-1" id="sidebar-wrap">
+                    <div class="scrollbar-wrap">
+                    </div>
+                </div>
+
+                <div id="home" class="hero_section">
+                    <div class="display-table">
+                        <div class="table-cell">
+                            <div class="container">
+                                <div class="hero_content align-center">
+                                    <a href="#" class="site_branding"><img src="img/ice.png" style="width:20em" alt=""></a>
+                                    <h1>Ice WL Checker</h1>
+									<h2 style="color:#fff">Do not put "0x" in the address you enter.</h2><br />
+									<input type="text" id="addr" placeholder="addr without '0x'">
+									<button onclick="getAddr()" id="btnice">Click</button><br />
+									<b id="result"></b>   
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.hero_section -->
+            </div><!-- /.st-pusher -->
+        </div><!-- /.st-container -->
+
+		<script src="script.js"></script>
+    </body>
+</html>
